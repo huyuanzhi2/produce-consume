@@ -80,7 +80,7 @@ void *producer(void *param){
         pthread_mutex_lock(&mutex);
 
         rand_num = rand() % 10 + 1;
-        printf("producer produced %d\n",rand_num);
+        printf("[+] producer produced %d\n",rand_num);
         if(insert_item(rand_num))
             printf("report error condition");
 
@@ -103,7 +103,7 @@ void *consumer(void *param){
         if(remove_item(rand_num))
             printf("report error condition");
         else
-            printf("consumer consumed %d\n",rand_num);
+            printf("[-] consumer consumed %d\n",rand_num);
 
         pthread_mutex_unlock(&mutex);
         sem_post(&empty);
