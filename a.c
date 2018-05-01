@@ -1,9 +1,6 @@
 /*
  author: huyuanzhi
-         20163015000045
  data: 2018-05-01
- QQ: 1157799274
-
 */
 
 #include<stdio.h>
