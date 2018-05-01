@@ -3,6 +3,9 @@ C语言实现生产者消费者模型
 
 <p>代码中给了比较详细的注释
 </p>
+
+<pre>gcc code.c -o code -lpthread</pre>
+
 <p>结果如下：</p>
 <br>
 <pre>producer produced 4
