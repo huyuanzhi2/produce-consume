@@ -1,6 +1,8 @@
 # produce-consume
 C语言实现生产者消费者模型
 
+<p>代码中给了比较详细的注释
+</p>
 <p>结果如下：</p>
 <br>
 <pre>producer produced 4
@@ -17,4 +19,5 @@ producer produced 8
 producer produced 1
 producer produced 9
 consumer consumed 9
-producer produced 8</pre>
+producer produced 8
+...</pre>
